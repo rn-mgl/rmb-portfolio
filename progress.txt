@@ -1,0 +1,14 @@
+app folder is the new pages
+
+    export react components can be async in next 13 (not sure in 12)
+
+    page.js is required as it is the index
+    head.js is for the titles, metas, and icons
+    layout.js is for the format "template" of the page, (but not exactly the template.js file), this is like the _app.js in next 12
+
+
+    ____________________________________________________________________________
+
+https://codesandbox.io/s/highlight-menu-item-on-scroll-x0gzn?file=/src/ScrollHighlightNabbar/ScrollHighlightNabbar.js
+-- scroll highlight
+
