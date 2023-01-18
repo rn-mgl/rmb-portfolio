@@ -24,6 +24,10 @@ const Navbar = () => {
   }, [setCurrActive]);
 
   React.useEffect(() => {
+    if (window.scrollY === 0) {
+      setIsVisible(true);
+    }
+
     window.addEventListener("wheel", (e) => {
       if (e.deltaY < 0) {
         setIsVisible(true);

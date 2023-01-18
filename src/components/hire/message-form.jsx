@@ -33,7 +33,7 @@ const MessageForm = () => {
     }
 
     try {
-      const { data } = await axios.post(`http://192.168.1.121:9000/s_m`, {
+      const { data } = await axios.post(`https://portfolio-server-h701.onrender.com/s_m`, {
         senderName,
         senderEmail,
         msgSubject,
