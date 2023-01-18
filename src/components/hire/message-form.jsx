@@ -66,11 +66,11 @@ const MessageForm = () => {
 
   return (
     <form
-      className="cstm-grdbg-gry-blk rounded-md cstm-flex-col gap-3 text-center w-full p-5 h-96 
+      className="cstm-grdbg-gry-blk rounded-md cstm-flex-col gap-3 text-center w-full p-5  self-stretch
                     l-s:gap-5 l-s:h-auto"
       onSubmit={(e) => sendMessage(e)}
     >
-      <fieldset disabled={loading} className="cstm-flex-col gap-3 w-full disabled:grayscale">
+      <fieldset disabled={loading} className="cstm-flex-col gap-3 w-full disabled:grayscale ">
         <DropMessage msg={msg} setMsg={setMsg} />
         <div
           className="cstm-flex-col gap-3 w-full

@@ -19,7 +19,7 @@ const Contacts = () => {
 
   return (
     <div
-      className="cstm-grdbg-gry-blk w-full rounded-md p-3 text-center cstm-flex-col gap-3 h-96 
+      className="cstm-grdbg-gry-blk w-full rounded-md p-3 text-center cstm-flex-col gap-3 self-stretch
                   l-s:h-auto"
     >
       {isCopied && <DropMessage msg={msg} setMsg={setMsg} />}
