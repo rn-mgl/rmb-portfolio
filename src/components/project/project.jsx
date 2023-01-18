@@ -70,7 +70,7 @@ const MyProjects = () => {
               <p>React JS</p> <p>Tailwind CSS</p> <p>Node JS</p> <p>Express</p> <p>mySql</p>
             </React.Fragment>
           }
-          url="https://grasp-by-rltn.vercel.app/"
+          url="https://grasp-rltn.vercel.app/"
           preview={grasp}
         />
         <SingleProject
@@ -92,7 +92,7 @@ const MyProjects = () => {
               <p>socket.io</p>
             </React.Fragment>
           }
-          url="https://gicharacters.netlify.app"
+          url="https://comms-rltn.vercel.app/"
           preview={comms}
         />
       </div>
