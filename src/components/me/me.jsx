@@ -18,8 +18,8 @@ const Init = () => {
         <p
           className="cstm-text-grd-gr-1-3 font-sora font-extrabold text-4xl
                       m-l:text-5xl
-                      t:text-6xl
-                      l-s:text-7xl"
+                      t:text-6xl t:leading-relaxed
+                      l-s:text-7xl l-s:leading-loose"
         >
           Rein Miguel Buenaventura
         </p>
