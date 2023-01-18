@@ -40,7 +40,6 @@ const MessageForm = () => {
         msgBody,
       });
       if (data) {
-        console.log(data);
         setMessageData({
           senderName: "",
           senderEmail: "",
