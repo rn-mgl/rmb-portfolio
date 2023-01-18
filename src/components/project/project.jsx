@@ -1,8 +1,8 @@
 import React from "react";
 import SingleProject from "./single-project";
+import takomommy from "../../../public/takomommy logo.jpg";
 import comms from "../../../public/comms logo.jpg";
 import grasp from "../../../public/grasp logo.jpg";
-import takomommy from "../../../public/takomommy logo.jpg";
 
 const MyProjects = () => {
   return (
