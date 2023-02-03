@@ -47,7 +47,7 @@ const MyProjects = () => {
               <p>React JS</p> <p> Vanilla CSS</p> <p>Node JS</p> <p>Express</p> <p>MongoDB</p>
             </React.Fragment>
           }
-          url="https://takomommy.netlify.app/"
+          url="https://takomommy.vercel.app/"
           preview={takomommy}
         />
         <SingleProject
